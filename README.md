@@ -9,6 +9,8 @@ This plugin automates the process of completing a `dns-01` challenge by creating
 
 **Note:** This manual assumes certbot >=2.7.4 which has improved the naming scheme for external plugins.
 
+**Note:** As of April 30th 2024 GoDaddy does not provide Domain API access to users with less than 50 registered domains. [See details](https://github.com/miigotu/certbot-dns-godaddy/issues/82).
+
 Installation
 ------------
 
